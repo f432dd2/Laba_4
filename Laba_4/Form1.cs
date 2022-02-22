@@ -6,11 +6,17 @@ namespace Laba_4
         {
             InitializeComponent();
             button1.Click += button1_Click;
+            button2.Click += button2_Click;
         }
 
         private void button1_Click(object? sender, EventArgs e)
         {
             MessageBox.Show("Привет");
+        }
+
+        private void button2_Click(object? sender, EventArgs e)
+        {
+            MessageBox.Show("Пока");
         }
     }
 }
